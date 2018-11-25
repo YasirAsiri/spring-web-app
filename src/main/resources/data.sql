@@ -1,0 +1,35 @@
+INSERT INTO person (id, first_name, last_name, street_address, city, post_code ) VALUES
+  (1,'Emmie','Jones','82 Grey Street','PLANTATIONS',6701),
+(2,'Kenneth','White','67 Passage Avenue','THURSDAY ISLAND',4875),
+(3,'Jim','Evans','98 Daly Terrace','CARABOODA',6033),
+(4,'Robert','Rodriguez','97 Bresnahans Lane','FITZROY FALLS',2577),
+(5,'Kathy','Ellington','20 Fergusson Street','COOLANESS',2470),
+(6,'Paul','Clark','52 Edgewater Close','NUMBAA',2540),
+(7,'Thomas','Orcutt','63 Fergusson Street','BABYL CREEK',2470),
+(8,'Scarlet','Curtis','55 Avondale Drive','ALBION PARK RAIL',2527),
+(9,'Jeff','Spellman','28 Creek Street','WEIR RIVER',4406),
+(10,'Barbara','Bloggs','14 Frencham Street','WANTAGONG',2644),
+(11,'Audrey','Cook','84 Brown Street','ROSEVILLE CHASE',2069),
+(12,'Michael','Roof','6 Ronald Crescent','TELINA',4680),
+(13,'Alicia','Wilson','55 Hodgson St','LESLIE',4370),
+(14,'Milagros','Myers','50 McGregor Street','BROKEN HILL',2880),
+(15,'James','Jones','98 Chapel Close','KANIMBLA',4870),
+(16,'Charles','Colquitt','34 Watson Street','ECHUCA VILLAGE',3564),
+(17,'Garry','Fuller','58 Villeneuve Street','HARRIETVILLE',3741),
+(18,'Dena','Riley','67 Walpole Avenue','BALLANGEICH',3279),
+(19,'Ryan','Norton','62 Grayson Street','BOORGA',2652),
+(20,'Vicki','Lafrance','33 Queen Street','AVALON',2107),
+(21,'Erasmo','Barnes','16 Faunce Crescent','SPRINGDALE',2666),
+(22,'Ronald','Ballou','22 Sale-Heyfield Road','BELLVIEW',3945),
+(23,'David','Hurlbert','40 Arthur Street','STUART TOWN',2820),
+(24,'Robert','Massaro','30 Railway Avenue','CORNELIA CREEK',3622),
+(25,'Rosemary','Chavez','6 Ridge Road','SOUTH ISIS',4660),
+(26,'Jermaine','Sheets','36 Mendooran Road','ANGLE PARK',2830),
+(27,'Julie','Jones','46 Faunce Crescent','WEETHALLE',2669),
+(28,'Michael','Estes','79 Henry Moss Court','WINDSOR',5501),
+(29,'Thomas','Pena','14 Wallum Court','EVIRON',2484),
+(30,'Vickey','White','7 Sunset Drive','CHORREGON',4730);
+
+
+  
+
