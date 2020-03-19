@@ -8,16 +8,17 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>PayPont</title>
+<title>DT Demo</title>
 
 <!-- Bootstrap core CSS -->
 <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" th:href="@{/DataTables/datatables.min.css}"/>
 <!-- Bootstrap core JavaScript -->
 <script th:src="@{/js/jquery.min.js}"></script>
 <script th:src="@{/js/bootstrap.bundle.min.js}"></script>
+<script type="text/javascript" th:src="@{/DataTables/datatables.min.js}"></script>
 
 <script th:src="@{/js/fetch.js}"></script>
-
 
 </head>
 
@@ -26,7 +27,7 @@
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
 		<div class="container">
-			<a class="navbar-brand" href="">Paypont</a>
+			<a class="navbar-brand" href="">DataTables Demo</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
 				data-target="#navbarResponsive" aria-controls="navbarResponsive"
 				aria-expanded="false" aria-label="Toggle navigation">
@@ -46,24 +47,17 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
-				<h1 class="mt-5">Paypont Code Challenge</h1>
-				<p class="lead"></p>
-
-
-
-				<form onsubmit="return false">
-					<input id="name" class="form-control mr-sm-2" type="text"
-						placeholder="Search By Last Name" aria-label="Search Last Name"> <br> <input type="submit"
-						class="btn btn-dark" value="Submit" onclick="updateTable()">
-					<button class="btn btn-dark" onclick="sortTable()">Sort By
-						First Name</button>
-				</form>
-
-				<br> <br>
-
-
-
+				<h2 class="mt-5">JSON retrieved records </h2>
 				<table class='table' id='peopleTable'>
+					<thead>
+						<tr>
+							 <th>First Name</th>
+							 <th>Last Name</th>
+							 <th>Street Address</th>
+							 <th>City</th>
+							 <th>Post Code</th>
+						</tr>
+					</thead>
 
 				</table>
 
@@ -79,7 +73,6 @@
 			</div>
 		</div>
 	</div>
-
 
 </body>
 
